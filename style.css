@@ -104,18 +104,24 @@ body {
 }
 .dogcontainer {
   height: 40%;
+  width: 30%;
+  text-align: center;
 }
 .dog {
   height: 40%;
 }
 .catcontainer {
   height: 50%;
+  width: 30%;
+  text-align: center;
 }
 .cat {
   height: 40%;
 }
 .rabbitcontainer {
   height: 40%;
+  width: 30%;
+  text-align: center;
 }
 .rabit {
   height: 40%;
@@ -190,9 +196,10 @@ body {
   /* padding-top: 20px; */
 }
 .footer {
-  height: 100px;
+  height: 20px;
   border: solid black;
   margin: 1em;
+  text-align: center;
 }
 
 @keyframes blowup {

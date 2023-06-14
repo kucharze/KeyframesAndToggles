@@ -17,10 +17,21 @@ const dog = () => {
 
 const dogShow = (status) => {
   let dog = document.querySelector(".dogselection");
+  dogItems = [
+    "Dog Ariel - Mastiff - Mixed Breed - Large - Female - 6 years old.",
+    "Ava - Mixed Bread - Medium - Female - 1 year old",
+    "Bella - Mixed Bread - Medium - Female - 4 years old",
+  ];
   if (status) {
-    dog.innerHTML = "hello";
+    let item = document.createElement("ul");
+    for (let i = 0; i < dogItems.length; i++) {
+      let listItem = document.createElement("li");
+      listItem.innerHTML = dogItems[i];
+      item.append(listItem);
+    }
+    dog.append(item);
   } else {
-    dog.innerHTML = "";
+    dog.replaceChildren();
   }
 };
 
@@ -42,10 +53,21 @@ const cat = () => {
 
 const catShow = (status) => {
   let cat = document.querySelector(".catselection");
+  catItems = [
+    "Dog Ariel - Mastiff - Mixed Breed - Large - Female - 6 years old.",
+    "Ava - Mixed Bread - Medium - Female - 1 year old",
+    "Bella - Mixed Bread - Medium - Female - 4 years old",
+  ];
   if (status) {
-    cat.innerHTML = "hello";
+    let item = document.createElement("ul");
+    for (let i = 0; i < catItems.length; i++) {
+      let listItem = document.createElement("li");
+      listItem.innerHTML = catItems[i];
+      item.append(listItem);
+    }
+    cat.append(item);
   } else {
-    cat.innerHTML = "";
+    cat.replaceChildren();
   }
 };
 
@@ -70,10 +92,21 @@ const rabit = () => {
 
 const rabbitShow = (status) => {
   let rabit = document.querySelector(".rabbitselection");
+  rabbitItems = [
+    "Dog Ariel - Mastiff - Mixed Breed - Large - Female - 6 years old.",
+    "Ava - Mixed Bread - Medium - Female - 1 year old",
+    "Bella - Mixed Bread - Medium - Female - 4 years old",
+  ];
   if (status) {
-    rabit.innerHTML = "hello";
+    let item = document.createElement("ul");
+    for (let i = 0; i < rabbitItems.length; i++) {
+      let listItem = document.createElement("li");
+      listItem.innerHTML = rabbitItems[i];
+      item.append(listItem);
+    }
+    rabit.append(item);
   } else {
-    rabit.innerHTML = "";
+    rabit.replaceChildren();
   }
 };
 
