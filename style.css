@@ -1,10 +1,22 @@
 @keyframes dog {
+  0% {
+  }
+  100% {
+  }
 }
 
 @keyframes cat {
+  0% {
+  }
+  100% {
+  }
 }
 
 @keyframes rabit {
+  0% {
+  }
+  100% {
+  }
 }
 
 .navbar {
@@ -174,7 +186,19 @@ body {
   border: solid black;
   margin: 1em;
 }
+
+@keyframes blowup {
+  0% {
+    width: 30%;
+    /* height: 60%; */
+  }
+  100% {
+    width: 85%;
+    /* height: 95%; */
+  }
+}
 .chosen {
   border: solid darkgreen;
   color: green;
+  animation: blowup 4s forwards;
 }
