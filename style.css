@@ -200,5 +200,5 @@ body {
 .chosen {
   border: solid darkgreen;
   color: green;
-  animation: blowup 4s forwards;
+  animation: blowup 3s forwards;
 }
