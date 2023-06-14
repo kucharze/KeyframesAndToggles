@@ -38,7 +38,7 @@ body {
   background-color: rgb(115, 155, 210);
 }
 .logoContainer {
-  border: solid purple;
+  border: solid rgb(3, 1, 110);
   width: 20%;
   /* padding-left: 30px; */
   font-size: 15px;
@@ -64,6 +64,7 @@ body {
   margin: 1em;
   display: flex;
   justify-content: space-around;
+  height: 50px;
 }
 
 .choice {
@@ -93,8 +94,6 @@ body {
   height: 100%;
 }
 .animals {
-  border: solid red;
-  /* border-width: 0.2px; */
   height: 700px;
   margin: 1em;
   display: flex;
@@ -127,7 +126,7 @@ body {
   height: 40%;
 }
 .displayMain {
-  border: solid orange;
+  /* border: solid orange; */
   border-width: 0.2px;
   height: 440px;
   margin: 1em;
