@@ -145,8 +145,8 @@ body {
   width: 35%;
 }
 .snapShot {
-  height: 100%;
-  /* width: 100%; */
+  /* height: 100%; */
+  width: 100%;
 }
 .textContainer {
   border: 2px solid rgb(57, 123, 214);
@@ -169,7 +169,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   /* height: 300px; */
-  width: 30%;
+  width: 25%;
   text-align: center;
   margin-right: 20px;
   color: beige;
@@ -181,7 +181,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   /* height: 300px; */
-  width: 30%;
+  width: 25%;
   text-align: center;
   margin-right: 20px;
   color: black;
@@ -192,7 +192,7 @@ body {
   background-image: url("https://media.istockphoto.com/id/139081359/photo/funny-rabbit.jpg?s=612x612&w=0&k=20&c=zg0qu8-Dlflo_yKXvkI5MvQQYG5dZ927v6EIapeD_xc=");
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 30%;
+  width: 25%;
   text-align: center;
   margin-right: 30px;
   color: beige;
@@ -208,7 +208,7 @@ body {
 
 @keyframes blowup {
   0% {
-    width: 30%;
+    width: 25%;
     /* height: 60%; */
   }
   100% {
