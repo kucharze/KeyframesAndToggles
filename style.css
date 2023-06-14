@@ -1,24 +1,24 @@
 @keyframes shrink {
   0% {
     /* initialCommand */
-    height: 300px;
+    height: 350px;
   }
 
   100% {
     /* finalCommand */
-    height: 150px;
+    height: 200px;
   }
 }
 
 @keyframes enlarge {
   0% {
     /* initialCommand */
-    height: 150px;
+    height: 200px;
   }
 
   100% {
     /* finalCommand */
-    height: 300px;
+    height: 350px;
   }
 }
 .bigger {
@@ -28,64 +28,63 @@
   animation: shrink 3s forwards;
 }
 .navbar {
-  /* border: solid black; */
-  /* border-width: 0.2px; */
-  height: 50px;
+  border-color: lightblue;
+  border-width: 0.2px;
+  height: 60px;
   margin: 1em;
   display: flex;
 }
+
 body {
-  background-color: rgb(115, 155, 210);
-}
-.logoContainer {
-  border: solid rgb(3, 1, 110);
-  width: 20%;
-  /* padding-left: 30px; */
-  font-size: 15px;
-  /* padding-bottom: 10px; */
-  font-family: Georgia;
-  font-size: 18px;
+  background-color: rgb(83, 92, 143);
 }
 .tabs {
-  border: solid blue;
+  /*border: solid rgb(57, 123, 214); */
   /* border-radius: 22px; */
   /* border-width: 0.5px; */
+  border-top: solid;
+  color: lightblue;
+  border-bottom: solid;
+  color: lightblue;
   text-align: center;
-  padding-top: 7px;
+  padding-top: 8px;
   width: 35%;
   font-family: Georgia;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .options {
-  border: solid darkblue;
-  border-width: 0.5px;
+  bottom-border: solid;
+  color: black;
+  border-width: 2px;
   /* height:340px; */
-  margin: 1em;
+  margin: 2em;
   display: flex;
   justify-content: space-around;
   height: 50px;
 }
 
 .choice {
-  border: solid black;
+  border: solid rgb(57, 123, 214);
+  border-width: 1px;
   border-radius: 25px;
-  border-width: 0.5px;
+  border-width: 2px;
   text-align: center;
   padding: 7px;
   width: 160px;
   background-color: white;
 }
 .choice:hover {
-  border: solid black;
+  border: solid white;
+  border-width: 2px;
   text-align: center;
   padding: 7px;
   color: white;
-  background-color: black;
+  background-color: rgb(12, 12, 53);
 }
 .mainImg {
-  border: solid blue;
-  border-width: 0.2px;
+  /* border: solid rgb(57, 123, 214);*/
+  border-width: 2px;
   height: 550px;
   margin: 1em;
 }
@@ -94,6 +93,10 @@ body {
   height: 100%;
 }
 .animals {
+  border: solid rgb(57, 123, 214);
+  border-radius: 15px;
+  /* padding: 15px; */
+  border-width: 2px;
   height: 700px;
   margin: 1em;
   display: flex;
@@ -107,7 +110,7 @@ body {
   text-align: center;
 }
 .dog {
-  height: 40%;
+  height: 70%;
 }
 .catcontainer {
   height: 50%;
@@ -115,30 +118,30 @@ body {
   text-align: center;
 }
 .cat {
-  height: 40%;
+  height: 70%;
 }
 .rabbitcontainer {
   height: 40%;
   width: 30%;
   text-align: center;
 }
-.rabit {
-  height: 40%;
+.rabbit {
+  height: 70%;
 }
 .displayMain {
-  /* border: solid orange; */
   border-width: 0.2px;
   height: 440px;
   margin: 1em;
   display: flex;
   justify-content: space-between;
 }
+
 .choose {
   display: flex;
   justify-content: space-around;
 }
 .leftImage {
-  border: solid grey;
+  border: solid rgb(57, 123, 214);
   width: 35%;
 }
 .snapShot {
@@ -146,7 +149,9 @@ body {
   /* width: 100%; */
 }
 .textContainer {
-  border: solid black;
+  border: 2px solid rgb(57, 123, 214);
+  border-radius: 8px;
+  padding: 5px;
   width: 60%;
   padding: 20px;
   font-size: 25px;
@@ -196,7 +201,7 @@ body {
 }
 .footer {
   height: 20px;
-  border: solid black;
+  border: solid rgb(9, 35, 71);
   margin: 1em;
   text-align: center;
 }
