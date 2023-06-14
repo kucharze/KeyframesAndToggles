@@ -18,7 +18,7 @@ const dog = () => {
 const dogShow = (status) => {
   let dog = document.querySelector(".dogselection");
   dogItems = [
-    "Dog Ariel - Mastiff - Mixed Breed - Large - Female - 6 years old.",
+    "Dog Ariel - Mastiff - Large - Female - 6 years old.",
     "Ava - Mixed Bread - Medium - Female - 1 year old",
     "Bella - Mixed Bread - Medium - Female - 4 years old",
   ];
@@ -54,9 +54,11 @@ const cat = () => {
 const catShow = (status) => {
   let cat = document.querySelector(".catselection");
   catItems = [
-    "Dog Ariel - Mastiff - Mixed Breed - Large - Female - 6 years old.",
-    "Ava - Mixed Bread - Medium - Female - 1 year old",
-    "Bella - Mixed Bread - Medium - Female - 4 years old",
+    "Alexander - Domestic Shorthair - Male - 5 years old",
+    "Arros - Longhair - Male - 3 years old",
+    "Ashes - Shorthair - Female - 1 year old",
+    "Beanie - Shorthair - Femaile - 8 years old",
+    "Brandy - Mixed Bread - Male - 3 years old",
   ];
   if (status) {
     let item = document.createElement("ul");
@@ -71,31 +73,32 @@ const catShow = (status) => {
   }
 };
 
-const rabit = () => {
-  let rabit = document.querySelector(".rabit");
-  // rabit.classList.toggle("bigger");
+const rabbit = () => {
+  let rabbit = document.querySelector(".rabbit");
+  // rabbit.classList.toggle("bigger");
 
-  if (rabit.classList.contains("bigger")) {
-    rabit.classList.toggle("smaller");
-    rabit.classList.toggle("bigger");
+  if (rabbit.classList.contains("bigger")) {
+    rabbit.classList.toggle("smaller");
+    rabbit.classList.toggle("bigger");
     rabbitShow(false);
-    // console.log("rabit bigger");
-  } else if (rabit.classList.contains("smaller")) {
-    rabit.classList.toggle("bigger");
-    rabit.classList.toggle("smaller");
+    // console.log("rabbit bigger");
+  } else if (rabbit.classList.contains("smaller")) {
+    rabbit.classList.toggle("bigger");
+    rabbit.classList.toggle("smaller");
     rabbitShow(true);
   } else {
-    rabit.classList.toggle("bigger");
+    rabbit.classList.toggle("bigger");
     rabbitShow(true);
   }
 };
 
 const rabbitShow = (status) => {
-  let rabit = document.querySelector(".rabbitselection");
+  let rabbit = document.querySelector(".rabbitselection");
   rabbitItems = [
-    "Dog Ariel - Mastiff - Mixed Breed - Large - Female - 6 years old.",
-    "Ava - Mixed Bread - Medium - Female - 1 year old",
-    "Bella - Mixed Bread - Medium - Female - 4 years old",
+    "Bugs - American - Male - 8 months old",
+    "Babs - Lionhead - Female - 11 months old",
+    "Cricket - Other - Male - 4 years old",
+    "Flops - American - Male - 3 years old",
   ];
   if (status) {
     let item = document.createElement("ul");
@@ -104,9 +107,9 @@ const rabbitShow = (status) => {
       listItem.innerHTML = rabbitItems[i];
       item.append(listItem);
     }
-    rabit.append(item);
+    rabbit.append(item);
   } else {
-    rabit.replaceChildren();
+    rabbit.replaceChildren();
   }
 };
 
