@@ -4,6 +4,15 @@ const ani2 = () => {};
 
 const ani3 = () => {};
 
-const toggle1 = () => {};
+const dogToggle = () => {
+  let dog = document.querySelector(".Dog");
+  dog.classList.toggle("chosen");
+};
 
-const toggle2 = () => {};
+const toggle2 = () => {
+  document.querySelector(".Cat");
+};
+
+const toggle3 = () => {
+  document.querySelector(".Rabbit");
+};
