@@ -141,7 +141,7 @@ body {
   /* height: 300px; */
   width: 30%;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 20px;
   color: beige;
   padding-left: 200px;
   padding-top: 60px;
@@ -153,7 +153,7 @@ body {
   /* height: 300px; */
   width: 30%;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 20px;
   color: black;
   padding-right: 200px;
   padding-top: 40px;
@@ -162,7 +162,6 @@ body {
   background-image: url("https://media.istockphoto.com/id/139081359/photo/funny-rabbit.jpg?s=612x612&w=0&k=20&c=zg0qu8-Dlflo_yKXvkI5MvQQYG5dZ927v6EIapeD_xc=");
   background-size: 100%;
   background-repeat: no-repeat;
-  /* height: 200px; */
   width: 30%;
   text-align: center;
   margin-right: 30px;
