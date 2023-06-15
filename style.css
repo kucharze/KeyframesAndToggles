@@ -145,7 +145,7 @@ body {
   width: 35%;
 }
 .snapShot {
-  /* height: 100%; */
+  height: 100%;
   width: 100%;
 }
 .textContainer {
@@ -203,6 +203,7 @@ body {
   height: 20px;
   border: solid rgb(9, 35, 71);
   margin: 1em;
+  width: 100%;
   text-align: center;
 }
 
