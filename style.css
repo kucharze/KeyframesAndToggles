@@ -1,24 +1,24 @@
 @keyframes shrink {
   0% {
     /* initialCommand */
-    height: 350px;
+    height: 250px;
   }
 
   100% {
     /* finalCommand */
-    height: 200px;
+    height: 180px;
   }
 }
 
 @keyframes enlarge {
   0% {
     /* initialCommand */
-    height: 200px;
+    height: 180px;
   }
 
   100% {
     /* finalCommand */
-    height: 350px;
+    height: 250px;
   }
 }
 .bigger {
@@ -112,7 +112,7 @@ body {
 }
 .animals {
   border: solid rgb(57, 123, 214);
-  background-color: gold;
+  background-color: rgb(205, 169, 103);
   border-radius: 15px;
   /* padding: 15px; */
   border-width: 2px;
