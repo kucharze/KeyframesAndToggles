@@ -190,14 +190,32 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+@keyframes picChange {
+  0% {
+    background-image: url(Dog2.jpg);
+  }
+  50% {
+    background-image: url(dog1.jpg);
+  }
+  100% {
+    background-image: url(Dog2.jpg);
+  }
+}
 .leftImage {
   border: solid rgb(57, 123, 214);
+  background-image: url("Dog2.jpg");
+  background-size: cover;
+  /* height: 100px; */
   width: 35%;
+  animation: picChange 5s infinite;
 }
-.snapShot {
+/* .snapShot {
   height: 100%;
   width: 100%;
-}
+
+  src: local("Dog2.jpg");
+} */
 .textContainer {
   border: 2px solid rgb(57, 123, 214);
   border-radius: 8px;
@@ -211,7 +229,7 @@ body {
   /* height: 40%; */
   width: 60%;
 }
-.dogsel {
+p .dogsel {
   height: 200px;
 }
 @keyframes move {
