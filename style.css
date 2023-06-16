@@ -47,7 +47,7 @@ body {
 .Donated {
   align-items: center;
   text-align: center;
-  background-color: yellow;
+  background-color: orange;
   display: none;
   font-size: 40px;
 }
