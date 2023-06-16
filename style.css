@@ -49,6 +49,7 @@ body {
   text-align: center;
   background-color: yellow;
   display: none;
+  font-size: 40px;
 }
 .show {
   display: block;
