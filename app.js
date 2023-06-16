@@ -28,6 +28,7 @@ const dogShow = (status) => {
     "Bella - Mixed Bread - Medium - Female - 4 years old",
   ];
   if (status) {
+    dog.replaceChildren();
     let item = document.createElement("ul");
     for (let i = 0; i < dogItems.length; i++) {
       let listItem = document.createElement("li");
@@ -36,7 +37,9 @@ const dogShow = (status) => {
     }
     dog.append(item);
   } else {
-    dog.replaceChildren();
+    dog.replaceChildren(
+      "Animal Friends cares for thousands of homeless pets each year. It is our goal to admit and place as many animals as possible while staying true to our no-kill tradition. In keeping with this tradition, Animal Friends does not euthanize animals in order to create space in our kennels. Because of this, all of our admissions must be scheduled in advance."
+    );
   }
 };
 
@@ -66,6 +69,7 @@ const catShow = (status) => {
     "Brandy - Mixed Bread - Male - 3 years old",
   ];
   if (status) {
+    cat.replaceChildren();
     let item = document.createElement("ul");
     for (let i = 0; i < catItems.length; i++) {
       let listItem = document.createElement("li");
@@ -74,7 +78,9 @@ const catShow = (status) => {
     }
     cat.append(item);
   } else {
-    cat.replaceChildren();
+    cat.replaceChildren(
+      "Progressive spay/neuter programming is at the forefront of our mission because unnecessary euthanasia can never be the solution to the pet overpopulation crisis in our region. Not only is spay and neuter the only way to compassionately and proactively end this problem - it also keeps your beloved pets healthier and happier."
+    );
   }
 };
 
@@ -106,6 +112,7 @@ const rabbitShow = (status) => {
     "Flops - American - Male - 3 years old",
   ];
   if (status) {
+    rabbit.replaceChildren();
     let item = document.createElement("ul");
     for (let i = 0; i < rabbitItems.length; i++) {
       let listItem = document.createElement("li");
@@ -114,7 +121,9 @@ const rabbitShow = (status) => {
     }
     rabbit.append(item);
   } else {
-    rabbit.replaceChildren();
+    rabbit.replaceChildren(
+      "Vaccine by vaccine, our Affordable Vaccine Appointments are providing pets the necessary services they need to remain safe and healthy members of their families. Our clinic offers affordable vaccines and microchips by appointment and through scheduled large-scale walk-in clinics a few times throughout the year."
+    );
   }
 };
 
