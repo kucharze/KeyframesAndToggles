@@ -28,31 +28,48 @@
   animation: shrink 3s forwards;
 }
 .navbar {
-  border: solid blue;
-  border-width: 0.5px;
-  height: 60px;
+  /* border: solid blue; */
+  /* border-width: 0.5px; */
+  height: 90px;
   margin: 1em;
   display: flex;
+  opacity: 1;
 }
-
+.donate {
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+}
 body {
   background-color: rgb(83, 92, 143);
+}
+.Donated {
+  align-items: center;
+  text-align: center;
+  background-color: yellow;
+  display: none;
+}
+.show {
+  display: block;
 }
 .tabs {
   /*border: solid rgb(57, 123, 214); */
   /* border-radius: 22px; */
   /* border-width: 0.5px; */
-  border-top: solid 50%;
-  color: blue;
-  border-bottom: solid 50%;
+  /* border-top: solid 50%; */
+  border-color: green;
+  color: black;
+  /* border-bottom: solid 50%; */
   background-color: lightgray;
   opacity: 0.5;
-  color: blue;
   text-align: center;
   padding-top: 8px;
   width: 35%;
   font-family: Georgia;
-  font-size: 22px;
+  font-size: 30px;
+  align-items: center;
+  display: flex;
 }
 
 .options {
@@ -87,10 +104,10 @@ body {
 }
 .mainImg {
   /* border: solid rgb(57, 123, 214);*/
-  background-image: url("https://dogsbestlife.com/wp-content/uploads/2021/02/cats-vs.-dogs-group-scaled.jpeg");
+  background-image: url("https://www.thinkingoutsidethecage.org/wp-content/uploads/2019/01/Ladybug-1-of-1-1024x681.jpg");
   border-width: 2px;
   background-size: cover;
-  height: 850px;
+  height: 950px;
   margin: 1em;
 }
 .topPic {

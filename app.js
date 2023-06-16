@@ -1,3 +1,8 @@
+const showDono = () => {
+  let don = document.querySelector(".Donated");
+  don.classList.toggle("show");
+};
+
 const dog = () => {
   let dog = document.querySelector(".dog");
 
