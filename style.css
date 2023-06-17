@@ -120,10 +120,12 @@ body {
 .animals {
   border: solid rgb(57, 123, 214);
   background-color: rgb(205, 169, 103);
+  background-image: url("https://media.istockphoto.com/id/182446632/photo/summer-landscape-with-grass-field-and-sky.jpg?s=612x612&w=0&k=20&c=HeT8r8SeezaFVRQy9w3ZOeyfdddoqip7s_wW21vqQ_8=");
+  background-size: cover;
   border-radius: 15px;
   /* padding: 15px; */
   border-width: 2px;
-  height: 650px;
+  height: 700px;
   margin: 1em;
 }
 .containers {
@@ -146,6 +148,7 @@ body {
   text-align: center;
   margin-top: 20px;
   margin-right: 20px;
+  /* background-image: url("https://www.hartz.com/wp-content/uploads/2022/04/small-dog-owners-1.jpg"); */
 }
 .dog {
   height: 200px;
@@ -240,11 +243,12 @@ p .dogsel {
     transform: translateX(100px);
   }
   100% {
-    transform: translateX(1950px);
+    transform: translateX(2250px);
   }
 }
 .bone {
-  height: 100px;
+  margin-top: 20px;
+  height: 80px;
   animation: move 8s infinite;
   margin-right: 20px;
 }
