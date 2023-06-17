@@ -248,7 +248,7 @@ p .dogsel {
 }
 .bone {
   margin-top: 20px;
-  height: 80px;
+  height: 100px;
   animation: move 8s infinite;
   margin-right: 20px;
 }
