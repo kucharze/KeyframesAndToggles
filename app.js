@@ -171,3 +171,20 @@ const rabbitToggle = () => {
   rabbit.classList.toggle("chosen");
   document.querySelector(".cast").innerHTML = "Your vote has been cast";
 };
+
+//Foundation for bellow taken from
+//w3schools
+window.addEventListener("scroll", () => {
+  let item = document.querySelector(".navbar");
+  if (
+    document.documentElement.scrollTop > 50 &&
+    !item.classList.contains("yellow")
+  ) {
+    item.classList.toggle("yellow");
+  } else if (
+    document.documentElement.scrollTop < 50 &&
+    item.classList.contains("yellow")
+  ) {
+    item.classList.toggle("yellow");
+  }
+});
